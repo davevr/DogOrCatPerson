@@ -7,9 +7,23 @@ Direct3D:
     VRAM:     1999 MB (via DXGI)
     Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\Warren\Documents\GitHub\dc\Pet People_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\Warren\Documents\GitHub\dc\Pet People_Data\Managed\UnityEngine.dll into Unity Child Domain
-- Completed reload, in  0.036 seconds
+Platform assembly: C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.043 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+UnloadTime: 0.426519 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 86.
+Total: 1.522249 ms (FindLiveObjects: 0.008451 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.076369 ms  DeleteObjects: 0.015394 ms)
+
+UnloadTime: 0.350150 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 91.
+Total: 1.499006 ms (FindLiveObjects: 0.007848 ms CreateObjectMapping: 0.009961 ms MarkObjects: 0.081198 ms  DeleteObjects: 0.012376 ms)
+
