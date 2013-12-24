@@ -12,6 +12,7 @@ extern "C"
 	extern int 			mono_ficall_flag;
 	void				mono_aot_register_module(gpointer *aot_info);
 	extern gboolean		mono_aot_only;
+	extern gpointer*	mono_aot_module_Assembly_CSharp_info; // Assembly-CSharp.dll
 	extern gpointer*	mono_aot_module_UnityEngine_info; // UnityEngine.dll
 	extern gpointer*	mono_aot_module_mscorlib_info; // mscorlib.dll
 #endif // !(TARGET_IPHONE_SIMULATOR)
@@ -28,6 +29,7 @@ void RegisterMonoModules()
 #if !(TARGET_IPHONE_SIMULATOR)
 	mono_aot_only = true;
 	mono_ficall_flag = false;
+	mono_aot_register_module(mono_aot_module_Assembly_CSharp_info);
 	mono_aot_register_module(mono_aot_module_UnityEngine_info);
 	mono_aot_register_module(mono_aot_module_mscorlib_info);
 
