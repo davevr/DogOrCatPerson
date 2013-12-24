@@ -11,19 +11,19 @@ Platform assembly: C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Ma
 Loading C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Warren\Documents\GitHub\PetPeople\Pet People_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-- Completed reload, in  0.043 seconds
+- Completed reload, in  0.039 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.426519 ms
+UnloadTime: 0.387580 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 86.
-Total: 1.522249 ms (FindLiveObjects: 0.008451 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.076369 ms  DeleteObjects: 0.015394 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 90.
+Total: 1.524362 ms (FindLiveObjects: 0.008451 ms CreateObjectMapping: 0.010564 ms MarkObjects: 0.082707 ms  DeleteObjects: 0.014790 ms)
 
-UnloadTime: 0.350150 ms
+UnloadTime: 0.351056 ms
 Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 91.
-Total: 1.499006 ms (FindLiveObjects: 0.007848 ms CreateObjectMapping: 0.009961 ms MarkObjects: 0.081198 ms  DeleteObjects: 0.012376 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 92.
+Total: 1.488441 ms (FindLiveObjects: 0.007848 ms CreateObjectMapping: 0.010263 ms MarkObjects: 0.081802 ms  DeleteObjects: 0.016300 ms)
 
