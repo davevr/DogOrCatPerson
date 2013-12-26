@@ -36,15 +36,17 @@ public class Milkbone : MonoBehaviour {
 	}
 
 	void OnMouseDown () {
-		ismoving = true;
-		savedPosition = this.transform.position;
+		if (ismoving == false) {
+			ismoving = true;
+			savedPosition = this.transform.position;
+		}
 	}
 
 		void OnMouseUp () {
 		if (ismoving) {
-						ismoving = false;
+			ismoving = false;
 
-						Rect boneRect = this.guiTexture.GetScreenRect();
+			Rect boneRect = this.guiTexture.GetScreenRect();
 			Rect dogRect = dogtexture.guiTexture.GetScreenRect();
 			Rect catRect = cattexture.guiTexture.GetScreenRect();
 
@@ -57,10 +59,8 @@ public class Milkbone : MonoBehaviour {
 				DoHappyCat();
 			}
 						
-
-					this.transform.position = savedPosition;
-				}
-
+			this.transform.position = savedPosition;
+		}
 	}
 
 void	DoHappyDog(){
