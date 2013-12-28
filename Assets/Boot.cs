@@ -7,6 +7,8 @@ public class Boot : MonoBehaviour {
 	public GUITexture dogtexture; 
 	public GUITexture cattexture;
 	public bool ismoving=false;
+	public GoldenScript gold;
+
 	Vector3 savedPosition;
 
 	// Use this for initialization
@@ -61,9 +63,12 @@ public class Boot : MonoBehaviour {
 	
 	void	DoSadDog(){
 		dogtexture.guiTexture.texture = saddogtexture;
+		gold.updategold (1);
+
 	}
 	void	DoSadCat(){
 		cattexture.guiTexture.texture = sadcattexture;
+		gold.updategold (1);
 	}
 }
 

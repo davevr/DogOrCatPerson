@@ -8,6 +8,7 @@ public class Milkbone : MonoBehaviour {
 	public GUITexture cattexture;
 	public bool ismoving=false;
 	Vector3 savedPosition;
+	public GoldenScript gold;
 
 
 	// Use this for initialization
@@ -65,10 +66,12 @@ public class Milkbone : MonoBehaviour {
 
 void	DoHappyDog(){
 		dogtexture.guiTexture.texture = happydogtexture;
+		gold.updategold (2);
 		}
 void	DoHappyCat(){
 		cattexture.guiTexture.texture = happycattexture;
-		}
+		gold.updategold (2);
+	}
 }
 
 
